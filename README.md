@@ -21,29 +21,6 @@ if you are unsure of the table structure I've provided the sql command used to g
 
 Examples
 --------
-Phonebook Web Service
-=====================
-
-This is a phonebook web service.
-This web service was written as a learning exercise and now I'm posting it on Github to get an understanding of using Github :)
-
-Requirements
-------------
-
-- LAMP Stack (this app was written & tested on Apache, MySQL, and PHP)
-- Database with your phonebook entries table headers:
-    - id (Primary Key)
-	- surname 
-	- firstname
-	- phonenumber 
-- There is a .setup.sh script that will update the php files with you db username and passwords
-please run this from within the same directory as the php files
-
-
-if you are unsure of the table structure I've provided the sql command used to generate the table or if you prefer just edit the sql queries to match your database tables 
-
-Examples
---------
 - Listing all entries: url/test/GET/
 - Searching for an entry using surname urltest/GET/surname  `https://yourhost.com/test/GET/Cantona`
 - Adding an entry: url/test/PUT/surname/firstname/phone_number	`https://yourhost.com/test/PUT/Federer/Roger/01001010010`
