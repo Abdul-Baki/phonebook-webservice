@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule ^GET/?$ listall.php
+RewriteRule ^GET/(.*)/?$ search.php?surname=$1
+RewriteRule ^DELETE/([0-9]+)/?$ delete.php?uid=$1
+RewriteRule ^PUT/(.*)/(.*)/(.*)/?$ add.php?surname=$1&firstname=$2&number=$3
+RewriteRule ^POST/(.*)/(.*)/?$ update.php?uid=$1&newnumber=$2 
